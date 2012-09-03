@@ -1,0 +1,3 @@
+When using new-if, my scheme interpreter gobbles up a bunch of memory and is
+eventually killed by the OOM killer. I cannot explain it, however. When simply
+replacing the new-if with an actual cond, it works fine.

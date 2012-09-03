@@ -1,0 +1,3 @@
+In applicative-order evaluation, the expression will be evaluated to 0. In
+normal-order execution, the interpreter will hang as it will be infinitely
+recursing, expanding (p) into (p).
